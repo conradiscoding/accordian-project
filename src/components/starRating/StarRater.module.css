@@ -1,0 +1,7 @@
+.starActive {
+  color: #ffcc00; /* Change the color to a gold or yellow color */
+}
+
+.starInactive {
+  color: #888888; /* Change the color to a gray or light gray color */
+}
