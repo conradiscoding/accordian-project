@@ -6,6 +6,7 @@ import Accordian from './components/accordian/Accordian';
 import HexColorGenerator from './components/HexColorGenerator/HexColorGenerator';
 import StarRater from './components/starRating/StarRater';
 import ImageSlider from './components/imageSlider/ImageSlider';
+import LoadMoreData from './components/loadMoreData/LoadMoreData';
 
 function App() {
   return (
@@ -13,7 +14,8 @@ function App() {
       {/* <Accordian /> */}
       {/* <HexColorGenerator /> */}
       {/* <StarRater /> */}
-      <ImageSlider url={'https://picsum.photos/v2/list'} page={1} limit={10} />
+      {/* <ImageSlider url={'https://picsum.photos/v2/list'} page={1} limit={10} /> */}
+      <LoadMoreData />
     </>
   );
 }
